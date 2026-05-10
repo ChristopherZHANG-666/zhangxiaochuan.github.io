@@ -3,82 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zhang Xiaochuan | Portfolio</title>
+    <title>ZHANG XIAOCHUAN | Editorial</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Sophisticated Serif Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Minimalist Navigation -->
     <nav>
-        <div class="container">
-            <a href="#" class="logo">ZX.</a>
-            <ul class="nav-links">
+        <div class="nav-container">
+            <a href="#" class="brand">ZHANG XIAOCHUAN</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <header>
-        <div class="container">
-            <h1>Hi, I'm <span class="highlight">Zhang Xiaochuan</span>.</h1>
-            <p>Developer, Creator, and Explorer.</p>
-        </div>
-    </header>
-
-    <section id="blog" class="container">
-        <h2 class="section-title">Latest Blog</h2>
-        <div class="blog-grid">
-            <article class="card">
-                <h3>My Learning Journey</h3>
-                <p>Sharing my experience of building my first website on GitHub Pages...</p>
-                <a href="#" class="read-more">Read More &rarr;</a>
-            </article>
-            <article class="card">
-                <h3>Tech Trends 2024</h3>
-                <p>Exploring the future of web development and AI integration.</p>
-                <a href="#" class="read-more">Read More &rarr;</a>
-            </article>
-        </div>
-    </section>
-
-    <section id="portfolio" class="bg-light">
-        <div class="container">
-            <h2 class="section-title">Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="card">
-                    <div class="placeholder">Project 1 Image</div>
-                    <h4>E-commerce UI</h4>
-                    <p>A clean, modern interface for shopping.</p>
-                </div>
-                <div class="card">
-                    <div class="placeholder">Project 2 Image</div>
-                    <h4>Data Analytics Dashboard</h4>
-                    <p>Visualizing complex data sets in real-time.</p>
+    <!-- SECTION 1: ABOUT (Luxury Profile) -->
+    <section id="about" class="fade-in">
+        <div class="content-wrapper side-by-side">
+            <div class="image-area">
+                <!-- Replace 'my-photo.jpg' with your actual file name -->
+                <img src="my-photo.jpg" alt="Profile" class="luxury-img">
+            </div>
+            <div class="text-area">
+                <span class="subtitle">The Introduction</span>
+                <h1>A Pursuit of <br><em>Excellence</em></h1>
+                <p>Digital architect and creative strategist based in China. I specialize in crafting high-fidelity digital experiences that bridge the gap between technology and timeless design.</p>
+                <div class="button-group">
+                    <a href="resume.pdf" target="_blank" class="luxury-btn">View Curriculum Vitae</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="container">
-        <h2 class="section-title">Contact Me</h2>
-        <div class="contact-wrapper">
-            <div class="contact-info">
-                <p>Have a project in mind? Let's work together!</p>
-                <p>Email: <strong>your-email@example.com</strong></p>
+    <hr class="divider">
+
+    <!-- SECTION 2: BLOG (Clean Editorial) -->
+    <section id="blog" class="fade-in">
+        <div class="content-wrapper">
+            <span class="subtitle center">Reflections</span>
+            <h2 class="section-title">Selected Writings</h2>
+            <div class="editorial-grid">
+                <article class="journal-entry">
+                    <span class="date">05 . 2026</span>
+                    <h3>The Aesthetics of Minimalism</h3>
+                    <p>Exploring why less is more in the modern digital landscape.</p>
+                    <a href="#" class="read-link">Read Entry</a>
+                </article>
+                <article class="journal-entry">
+                    <span class="date">04 . 2026</span>
+                    <h3>Building on GitHub</h3>
+                    <p>A technical guide to hosting premium web experiences.</p>
+                    <a href="#" class="read-link">Read Entry</a>
+                </article>
             </div>
-            <form action="https://formspree.io/f/YOUR_ID" method="POST" class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+        </div>
+    </section>
+
+    <!-- SECTION 3: CONTACT (Understated Elegance) -->
+    <section id="contact" class="fade-in bg-dark">
+        <div class="content-wrapper center">
+            <span class="subtitle gold">Inquiries</span>
+            <h2>Let's Create Together</h2>
+            <p>Currently accepting select collaborations and speaking engagements.</p>
+            <a href="mailto:your-email@example.com" class="email-link">hello@zhangxiaochuan.com</a>
+            
+            <div class="social-footer">
+                <a href="#">LinkedIn</a> / <a href="#">GitHub</a> / <a href="#">Instagram</a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Zhang Xiaochuan. Built with GitHub Pages.</p>
+        <p>&copy; 2026 Zhang Xiaochuan. All Rights Reserved.</p>
     </footer>
 
 </body>
